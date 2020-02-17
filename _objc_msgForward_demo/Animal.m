@@ -9,5 +9,9 @@
 #import "Animal.h"
 
 @implementation Animal
+//- (void)sel
+//{
+//    NSLog(@"Animal");
+//}
 
 @end

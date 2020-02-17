@@ -6,11 +6,11 @@
 //  Copyright © 2020 ShanYuQin. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 
+#import "Animal.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Monkey : NSObject
+@interface Monkey : Animal
 
 @end
 

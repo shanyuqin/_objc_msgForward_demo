@@ -16,6 +16,9 @@
 		943C993523F5A4550000E9A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 943C993423F5A4550000E9A0 /* main.m */; };
 		943C993F23F5A4550000E9A0 /* _objc_msgForward_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 943C993E23F5A4550000E9A0 /* _objc_msgForward_demoTests.m */; };
 		943C994A23F5A4550000E9A0 /* _objc_msgForward_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 943C994923F5A4550000E9A0 /* _objc_msgForward_demoUITests.m */; };
+		943C995923F5A4830000E9A0 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 943C995823F5A4830000E9A0 /* Animal.m */; };
+		943C995C23F5A48C0000E9A0 /* Monkey.m in Sources */ = {isa = PBXBuildFile; fileRef = 943C995B23F5A48C0000E9A0 /* Monkey.m */; };
+		943C995F23F5A4AE0000E9A0 /* ForwardingTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 943C995E23F5A4AE0000E9A0 /* ForwardingTarget.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,12 @@
 		943C994523F5A4550000E9A0 /* _objc_msgForward_demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = _objc_msgForward_demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		943C994923F5A4550000E9A0 /* _objc_msgForward_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _objc_msgForward_demoUITests.m; sourceTree = "<group>"; };
 		943C994B23F5A4550000E9A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		943C995723F5A4830000E9A0 /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		943C995823F5A4830000E9A0 /* Animal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		943C995A23F5A48C0000E9A0 /* Monkey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Monkey.h; sourceTree = "<group>"; };
+		943C995B23F5A48C0000E9A0 /* Monkey.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Monkey.m; sourceTree = "<group>"; };
+		943C995D23F5A4AE0000E9A0 /* ForwardingTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForwardingTarget.h; sourceTree = "<group>"; };
+		943C995E23F5A4AE0000E9A0 /* ForwardingTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForwardingTarget.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +124,12 @@
 				943C993023F5A4550000E9A0 /* LaunchScreen.storyboard */,
 				943C993323F5A4550000E9A0 /* Info.plist */,
 				943C993423F5A4550000E9A0 /* main.m */,
+				943C995723F5A4830000E9A0 /* Animal.h */,
+				943C995823F5A4830000E9A0 /* Animal.m */,
+				943C995A23F5A48C0000E9A0 /* Monkey.h */,
+				943C995B23F5A48C0000E9A0 /* Monkey.m */,
+				943C995D23F5A4AE0000E9A0 /* ForwardingTarget.h */,
+				943C995E23F5A4AE0000E9A0 /* ForwardingTarget.m */,
 			);
 			path = _objc_msgForward_demo;
 			sourceTree = "<group>";
@@ -267,8 +282,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				943C995C23F5A48C0000E9A0 /* Monkey.m in Sources */,
 				943C992A23F5A4530000E9A0 /* ViewController.m in Sources */,
 				943C992423F5A4530000E9A0 /* AppDelegate.m in Sources */,
+				943C995F23F5A4AE0000E9A0 /* ForwardingTarget.m in Sources */,
+				943C995923F5A4830000E9A0 /* Animal.m in Sources */,
 				943C993523F5A4550000E9A0 /* main.m in Sources */,
 				943C992723F5A4530000E9A0 /* SceneDelegate.m in Sources */,
 			);
